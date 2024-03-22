@@ -15,6 +15,16 @@ Sem usar Script - npx nodemon index.js
     nodemon - nome da biblioteca
     index.js - nome do arquivo
 -----------------------------
+Instalar dependências em modo
+de desenvolvimento - npm install --save-dev | npm install -D nodemon
+-----------------------------
+Instalar apenas dependências de produção - npm install --production
+-----------------------------
+Remover dependências - npm remove [nome]
+-----------------------------
+Instalar dependências Globais - npm install -g nodemon  
+    Não aparece no package.json
+    Recomendado somente para ferramentas que usam para criar projetos
 */
 
 const uuid = require("uuid")
